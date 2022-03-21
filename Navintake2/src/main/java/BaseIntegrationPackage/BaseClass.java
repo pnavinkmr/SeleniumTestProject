@@ -31,4 +31,7 @@ public class BaseClass {
 //Step 5: Keep your Git repo as public to clone a repo (maybe because of free version)
 //Step 6: Right click on project -> Team -> Share -> Add to Git repo
 //Step 7: Right click -> Team -> Commit -> select all/some files ->drag to Git staging
-//Step 8: Click commit and push
+//Step 8: Click commit and push 
+//Step 9: If password doesn't work, then goto Github -> user settings -> Developer settings
+	// -> Personal access tokens -> Generate new token -> copy token -> Paste in Eclipse commit
+	// as password
