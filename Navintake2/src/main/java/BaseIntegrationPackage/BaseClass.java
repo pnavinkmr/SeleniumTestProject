@@ -29,3 +29,6 @@ public class BaseClass {
 //Step 3: Start Eclipse
 //Step 4: Goto Perspective -> Git Repositories and click on Clone Git repositories
 //Step 5: Keep your Git repo as public to clone a repo (maybe because of free version)
+//Step 6: Right click on project -> Team -> Share -> Add to Git repo
+//Step 7: Right click -> Team -> Commit -> select all/some files ->drag to Git staging
+//Step 8: Click commit and push
