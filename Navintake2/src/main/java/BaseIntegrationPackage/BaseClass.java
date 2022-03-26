@@ -1,10 +1,13 @@
 package BaseIntegrationPackage;
 
+import static org.testng.Assert.assertEquals;
+
 import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 
 public class BaseClass {
 
@@ -30,6 +33,7 @@ public class BaseClass {
 		driver.findElement(By.className("btn-primary")).click();
 		//driver.wait(3000); don't use doesn't work
 		//driver.close();
+		Assert.assertEquals("", "");
 		 
 	}
 
@@ -51,6 +55,31 @@ public class BaseClass {
 //css syntax
 //tagname.classname, tagname#id, tagname[attribute='value']
 //selectorshub - type css selector
+//tagname[attribute='value']:nth-child(indexnumberstartingwith1)
 //or in console put - $('css')
 //xpath syntax
-//
+//- //tagname[@attribute='value']
+//or in console put - $x('//tagname[@attribute="value"]')
+//- //tagname[@attribute='value'][indexnumberstartingwith1]
+//Parent to child navigation using tags only - without any attributes
+//xpath
+//- //parenttagname/childtagname[indexnumber], //parenttagname[@att='']/childttagname[index]
+//css
+// parenttagname childtagname
+//Using Regular expressions
+//css
+// tagname[attribute*='partial_text']
+//xpath
+//- //tagname[contains(@attribute,'full text')] -if you use classname attribute put full compound value here as you are building a custom xpath
+
+//Thread.Sleep(); helps in java to wait explicitly but not recommended
+
+//Automate a web application and assert it with TestNG
+//Automate a web application and use BDD Cucumber
+//Automate a web application with Saucelabs/Browserstack for cross browser testing (extension)
+//Automate a web application using Appium for IoS and Android (extension)
+//Automate single page web applications written by Angular and React, URL no change
+//Automate API testing using RestAssured
+//Build a common CI/CD Jenkins and Azure pipelines for the above
+//Build different repos in Github
+//+projects - Assert and automate ETL testing
