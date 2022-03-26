@@ -72,6 +72,10 @@ public class BaseClass {
 //xpath
 //- //tagname[contains(@attribute,'full text')] -if you use classname attribute put full compound value here as you are building a custom xpath
 
+//xpath
+//- //tagname[text()='LOG OUT'] -no css to select an element based on text
+//or //*[text()='LOG OUT'] -* will search for any tag name, use it only when this text is unique on the page
+
 //Thread.Sleep(); helps in java to wait explicitly but not recommended
 
 //Automate a web application and assert it with TestNG
